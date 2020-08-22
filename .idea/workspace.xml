@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ce49d225-7754-4a60-9235-b3c9d94986cc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gRjDQECNF4qqpBd3CTPlblDFmd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce49d225-7754-4a60-9235-b3c9d94986cc" name="Default Changelist" comment="" />
+      <created>1598084178351</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598084178351</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="540" y="104" key="FileChooserDialogImpl" timestamp="1598099658956">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="540" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598099658956" />
+    <state x="155" y="0" width="1211" height="728" key="SettingsEditor" timestamp="1598099714515">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="155" y="0" width="1211" height="728" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598099714515" />
+    <state x="620" y="139" key="com.intellij.ide.util.TipDialog" timestamp="1598098994516">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="620" y="139" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1598098994516" />
+    <state x="593" y="100" width="672" height="528" key="dock-window-1" timestamp="1598101196404">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="593" y="100" width="672" height="528" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1598101196404" />
+  </component>
+</project>
