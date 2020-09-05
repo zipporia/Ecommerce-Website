@@ -55,6 +55,7 @@ def updateItem(request):
 
     orderItem.save()
 
-    
+    if orderItem.quantity <= 0:
+        orderItem.delete()
 
     return JsonResponse('Item was added', safe=False)
