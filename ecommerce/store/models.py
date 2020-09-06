@@ -3,7 +3,8 @@ from django.contrib.auth.models import User
 
 
 class Customer(models.Model):
-    user = models.OneToOneField(User, on_delete=models.CASCADE, null=True, blank=True)  # one to one meaning the user can only have one customer and the customer can only have on user
+    user = models.OneToOneField(User, on_delete=models.CASCADE, null=True,
+                                blank=True)  # one to one meaning the user can only have one customer and the customer can only have on user
     name = models.CharField(max_length=200, null=True)
     email = models.CharField(max_length=200, null=True)
 
@@ -19,6 +20,15 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name
+
+    @property
+    def shipping(self):
+        shipping = False
+        orderitems = self.orderitem_set.all()
+        for i in orderitems:
+            if i.product.digital == False:
+                shipping = True
+        return shipping
 
     @property
     def imageURL(self):
