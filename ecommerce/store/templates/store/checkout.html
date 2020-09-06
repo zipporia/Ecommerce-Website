@@ -29,6 +29,9 @@
           <div class="form-field">
             <input  class="form-control" type="text" name="zipcode" placeholder="Zip code">
           </div>
+          <div class="form-field">
+            <input  class="form-control" type="text" name="zipcode" placeholder="Zip code">
+          </div>
         </div>
         <input id="form-button" class="btn btn-success btn-block" type="submit" value="Continue">
       </form>
@@ -71,9 +74,9 @@
   form.addEventListener('submit', function(e){
     e.preventDefault()
     console.log('Form submitted..')
-    document.getElementById('form-button').classList.add('hidden')
-    document.getElementById('payment-info').classList.remove('hidden')
-  }
+    document.getElementById('form-button').classList.add("hidden")
+    document.getElementById('payment-info').classList.remove("hidden")
+  })
 </script>
 
 {% endblock content%}
