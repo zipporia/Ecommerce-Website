@@ -90,7 +90,10 @@ def processOrder(request):
             order.complete = True
         order.save()
 
-        
+        if order.shipping == True:
+            ShippingAddress.objects.create(
+                
+            )
 
     else:
         print('User is not logged in')
