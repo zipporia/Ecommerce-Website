@@ -27,8 +27,8 @@
             }
             var csrftoken = getToken('csrftoken');
 
-            function setCookie(name){
-                var cookiesArr =document.cookie.split(";");
+            function getCookie(name){
+                var cookieArr =document.cookie.split(";");
 
                 for(var i = 0; i < cookieArr.length; i++){
                     var cookiePair = cookieArr[i].split("=");
@@ -39,8 +39,8 @@
                 }
                 return null;
             }
-            var cart = JSON.parse.(getCookie('cart'))
-
+            var cart = JSON.parse(getCookie('cart'))
+            console.log('Cart:', cart);
         </script>
 
     </head>
