@@ -31,7 +31,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -51,10 +51,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="445" y="21" key="#HTML/0.0.1366.728@0.0.1366.728" timestamp="1598146208594" />
-    <state x="275" y="21" key="#Notifications" timestamp="1599568302661">
+    <state x="275" y="21" key="#Notifications" timestamp="1599645226525">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="21" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1599568302661" />
+    <state x="275" y="21" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1599645226525" />
     <state x="550" y="21" key="#Python" timestamp="1598181373900">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -63,18 +63,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="749" y="112" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1598753171666" />
-    <state x="540" y="104" key="FileChooserDialogImpl" timestamp="1599562819433">
+    <state x="540" y="104" key="FileChooserDialogImpl" timestamp="1599645291931">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="540" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599562819433" />
-    <state x="155" y="0" width="1211" height="728" key="SettingsEditor" timestamp="1599565420888">
+    <state x="540" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599645291931" />
+    <state x="155" y="0" width="1211" height="728" key="SettingsEditor" timestamp="1599652782254">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="155" y="0" width="1211" height="728" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599565420888" />
-    <state x="620" y="139" key="com.intellij.ide.util.TipDialog" timestamp="1599562924040">
+    <state x="155" y="0" width="1211" height="728" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599652782254" />
+    <state x="620" y="139" key="com.intellij.ide.util.TipDialog" timestamp="1599652797720">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="620" y="139" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1599562924040" />
+    <state x="620" y="139" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1599652797720" />
     <state x="593" y="100" width="672" height="528" key="dock-window-1" timestamp="1598101196404">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
