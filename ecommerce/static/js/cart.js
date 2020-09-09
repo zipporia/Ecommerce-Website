@@ -40,6 +40,7 @@ function addCookieItem(productId, action){
     }
     console.log('Cart11: ', cart)
     document.cookie = 'cart=' + JSON.stringify(cart) + ";domain=;path=/"
+    location.reload()
 }
 
 
