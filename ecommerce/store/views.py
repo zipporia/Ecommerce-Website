@@ -1,8 +1,10 @@
 from django.shortcuts import render
 from django.http import JsonResponse
-from .models import *
 import json
 import datetime
+
+from .models import *
+from .utils import cookieCart
 
 
 def store(request):
