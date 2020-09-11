@@ -122,7 +122,6 @@
      if(user == 'AnonymousUser'){
       userFormData.name = form.name.value
       userFormData.email = form.email.value
-
     }
 
     var url = '/process_order/'
@@ -139,9 +138,9 @@
       console.log('Success: ',data);
       alert('Transaction completed');
 
-      cart = {}
-        console.log('Cart was created')
-        document.cookie = 'cart=' + JSON.stringify(cart) + ";domain=;path=/"
+    cart = {}
+      console.log('Cart was created')
+      document.cookie = 'cart=' + JSON.stringify(cart) + ";domain=;path=/"
 
       window.location.href = "{% url 'store' %}"
     })
