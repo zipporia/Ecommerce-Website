@@ -8,7 +8,7 @@ from .utils import cookieCart, cartData
 
 
 def store(request):
-    
+
     data = cartData(request)
     cartItems = data['cartItems']
 
