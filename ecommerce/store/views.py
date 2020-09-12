@@ -4,7 +4,7 @@ import json
 import datetime
 
 from .models import *
-from .utils import cookieCart, cartData
+from .utils import cookieCart, cartData, guestOrder
 
 
 def store(request):
@@ -76,7 +76,6 @@ def processOrder(request):
         customer = request.user.customer
         order, created = Order.objects.get_or_create(customer=customer, complete=False)
 
-
     else:
         print('User is not logged in')
 
@@ -88,7 +87,7 @@ def processOrder(request):
         items = cookieData['items']
 
         customer, created = Customer.objects.get_or_create(
-            email =email,
+            email=email,
         )
         customer.name = name
         customer.save()
