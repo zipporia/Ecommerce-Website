@@ -86,4 +86,5 @@ def guestOrder(request, data):
             quantity=item['quantity']
         )
 
-    return ''
+    return customer, order
+
